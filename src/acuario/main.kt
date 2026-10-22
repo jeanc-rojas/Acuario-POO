@@ -20,9 +20,14 @@ fun crearPeces() {
 }
 
 fun main() {
+    println("=== PARTE 1: CONSTRUCCIÓN DE ACUARIOS ===")
     construirAcuario()
-    println("--- Pruebas de Peces ---")
+
+    println("\n=== PARTE 2: PRUEBAS DE PECES ===")
     crearPeces()
+
+    println("\n=== PARTE 3: EJEMPLO PROPIO - SISTEMA DE MANTENIMIENTO ===")
+    ejecutarSistemaMantenimiento()
 }
 
 
